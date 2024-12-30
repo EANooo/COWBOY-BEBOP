@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星际牛仔 - Cowboy Bebop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 音乐播放器 -->
+    <div class="music-player">
+        <audio id="bgMusic" loop>
+            <source src="audio/tank!.mp3" type="audio/mpeg">
+        </audio>
+        <button id="musicToggle" class="music-toggle">♪</button>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="main-nav">
+        <div class="nav-logo">
+            <img src="images/logo.png" alt="星际牛仔">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#characters">角色</a></li>
+            <li><a href="#story">剧情</a></li>
+            <li><a href="#behind">幕后</a></li>
+            <li><a href="#guide">观看指南</a></li>
+        </ul>
+        <div class="menu-toggle">☰</div>
+    </nav>
+
+    <!-- 首页部分 -->
+    <section id="home" class="hero">
+        <div class="hero-wrapper">
+            <div class="hero-content">
+                <h1>星际牛仔</h1>
+                <p>在2071年的未来世界，追捕赏金的冒险故事...</p>
+            </div>
+
+            <!-- 对话窗口横向布局 -->
+            <div class="dialog-flow">
+                <!-- 斯派克对话 -->
+                <div class="dialog-box">
+                    <div class="dialog-header">
+                        <img src="images/spike-avatar.jpg" alt="斯派克头像">
+                        <h3>斯派克·斯比格</h3>
+                    </div>
+                    <div class="dialog-content">
+                        <p>"我不是活着，只是还没死去。"</p>
+                        <span class="episode">- 第26集</span>
+                    </div>
+                </div>
+
+                <!-- 杰特对话 -->
+                <div class="dialog-box">
+                    <div class="dialog-header">
+                        <img src="images/jet-avatar.jpg" alt="杰特头像">
+                        <h3>杰特·布莱克</h3>
+                    </div>
+                    <div class="dialog-content">
+                        <p>"男人必须坚持自己的信念。"</p>
+                        <span class="episode">- 第8集</span>
+                    </div>
+                </div>
+
+                <!-- 菲对话 -->
+                <div class="dialog-box">
+                    <div class="dialog-header">
+                        <img src="images/faye-avatar.jpg" alt="菲头像">
+                        <h3>菲·瓦伦泰</h3>
+                    </div>
+                    <div class="dialog-content">
+                        <p>"活着本身就是一场赌博。"</p>
+                        <span class="episode">- 第15集</span>
+                    </div>
+                </div>
+
+                <!-- 爱德华对话 -->
+                <div class="dialog-box">
+                    <div class="dialog-header">
+                        <img src="images/ed-avatar.jpg" alt="爱德华头像">
+                        <h3>爱德华·王</h3>
+                    </div>
+                    <div class="dialog-content">
+                        <p>"爱德华要去冒险啦！"</p>
+                        <span class="episode">- 第9集</span>
+                    </div>
+                </div>
+
+                <!-- 比西亚斯对话 -->
+                <div class="dialog-box">
+                    <div class="dialog-header">
+                        <img src="images/vicious-avatar.jpg" alt="比西亚斯头像">
+                        <h3>比西亚斯</h3>
+                    </div>
+                    <div class="dialog-content">
+                        <p>"当你凝视深渊时，深渊也在凝视着你。"</p>
+                        <span class="episode">- 第13集</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 角色介绍部分 -->
+    <section id="characters" class="character-section">
+        <h2>主要角色</h2>
+        <<div class="character-grid">
+    <!-- 斯派克 -->
+    <div class="character-card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="images/spike.jpg" alt="斯派克">
+                <h3>斯派克·斯比格</h3>
+            </div>
+            <div class="card-back">
+                <p>贝巴布号的主要成员，27岁。前红龙帮成员，现为赏金猎人。擅长截拳道，性格随性洒脱。过去的经历让他带着"活着就是为了了解自己是否真的活着"的心态在宇宙中漂泊。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 杰特 -->
+    <div class="character-card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="images/jet.jpg" alt="杰特">
+                <h3>杰特·布莱克</h3>
+            </div>
+            <div class="card-back">
+                <p>贝巴布号的船长，36岁。前ISSP（星际警察）警官，因故离职成为赏金猎人。为人正直，性格稳重，精通机械维修，常常担任团队中的智囊角色。左臂为机械义肢。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 菲·瓦伦泰 -->
+    <div class="character-card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="images/faye.jpg" alt="菲">
+                <h3>菲·瓦伦泰</h3>
+            </div>
+            <div class="card-back">
+                <p>23岁（实际77岁）。因冷冻休眠而失忆的神秘女子，欠下巨额债务后加入贝巴布号。性格任性傲娇，擅长飞行和赌博，但常常带来麻烦。在寻找自己过去的过程中逐渐成长。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 爱德华 -->
+    <div class="character-card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="images/ed.jpg" alt="爱德华">
+                <h3>爱德华·王</h3>
+            </div>
+            <div class="card-back">
+                <p>13岁的天才黑客，性别女。个性古怪活泼，常以第三人称称呼自己。精通电脑技术，能入侵各种系统。与艾因一起加入贝巴布号后为团队提供情报支持。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 艾因 -->
+    <div class="character-card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="images/ein.jpg" alt="艾因">
+                <h3>艾因</h3>
+            </div>
+            <div class="card-back">
+                <p>威尔士柯基犬，经过基因改造的数据狗。智商极高但不会说话，是爱德华最好的伙伴。虽然外表普通，但具有超乎寻常的计算能力和理解能力。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 比西亚斯 -->
+    <div class="character-card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="images/vicious.jpg" alt="比西亚斯">
+                <h3>比西亚斯</h3>
+            </div>
+            <div class="card-back">
+                <p>红龙帮的高级干部，斯派克的宿敌。性格冷酷无情，野心勃勃。与斯派克曾是最好的搭档，但因为朱莉娅的关系而反目成仇。始终带着一只白色的乌鸦。</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- JavaScript -->
+    <script src="js/s.js"></script>
+</body>
+</html>
